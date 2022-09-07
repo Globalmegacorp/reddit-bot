@@ -30,7 +30,7 @@ Simply run as ./reddit_bot.py in a screen.
 | password = | reddit bot account password |
 | client_id = | reddit bot client id |
 | client_secret | reddit bot client secret |
-| subreddit | | Your subreddit here |
+| subreddit | Your subreddit here |
 | commentdb | File to store which comments have already triggered a notification |
 | discord_webhook | Webhook for posting notifications |
 | debuglog | Debug log file |
