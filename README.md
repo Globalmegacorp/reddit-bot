@@ -26,9 +26,14 @@ Simply run as ./reddit_bot.py in a screen.
 
 | Config Name | Description |
 | ----------- | ----------- |
+| username = | reddit bot account username |
+| password = | reddit bot account password |
+| client_id = | reddit bot client id |
+| client_secret | reddit bot client secret |
 | subreddit | | Your subreddit here |
 | commentdb | File to store which comments have already triggered a notification |
 | discord_webhook | Webhook for posting notifications |
+| debuglog | Debug log file |
 | reports_notify_pause_seconds | Pause between notifying about reports, default 30 minutes |
 | unmodded_notify_pause_seconds | Pause between notifying about unmodded posts, default 1 hour |
 | max_unmodded_age | Max age of an unmodded post before notifying, default 4 hours |
